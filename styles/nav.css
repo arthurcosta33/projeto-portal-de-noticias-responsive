@@ -15,11 +15,16 @@ nav h1 {
   display: flex;
   gap: 2.5rem;
   overflow-x: auto;
+  scrollbar-width: none;
   white-space: nowrap;
   padding: 0.875rem 0 0.875rem 1rem;
   font: var(--text-span);
   color: var(--text-color-secondary);
   scroll-behavior: smooth;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 .scrollbar a {
