@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.scrollbar {
+  display: flex;
+  gap: 2.5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.875rem 0 0.875rem 1rem;
+  font: var(--text-span);
+  color: var(--text-color-secondary);
+  scroll-behavior: smooth;
+}

@@ -9,7 +9,7 @@
   --brand-color-dark: #1D4ED8;
   --bg-color: #0F172A;
   --stroke-color: #1E293B;
-  --text-color-primary: #F1F5F;
+  --text-color-primary: #F1F5F9;
   --text-color-secondary: #CBD5E1;
 
   --font-family: "Archivo", sans-serif;
@@ -17,6 +17,10 @@
   --text-h1: 800 1.5rem/135% var(--font-family);
   --text: 800 1rem/140% var(--font-family);
   --text-md: 800 0.875rem/140% var(--font-family);
-  --text-span: 0.875rem/140% var(--font-family);
+  --text-span: 600 0.875rem/145% var(--font-family);
   --text-sm: 0.875rem/160% var(--font-family)
+}
+
+body {
+  background-color: var(--bg-color);
 }
